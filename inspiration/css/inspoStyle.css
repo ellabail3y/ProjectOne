@@ -16,10 +16,7 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -46,8 +43,8 @@ h1{
     font-stretch: expanded;
     font-size: 60px;
     color: black;
-    width: auto;
-    max-width: 50%;
+    margin: 0;
+    display: inline-block;
 }
 
 h2{
