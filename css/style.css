@@ -20,13 +20,18 @@ header{
 nav{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    background-color: black;
+    padding: 5px 0;
+    width: 600px;
+    margin: 0 auto;
 }
 
 nav a{
     margin: 0 15px;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 18px;
 }
 
 h1{
