@@ -16,23 +16,25 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
+    text-align: center;
     margin-bottom: 20px;
 }
 
 nav{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    background-color: black;
+    padding: 5px 0;
+    width: 600px;
+    margin: 0 auto;
 }
 
 nav a{
     margin: 0 15px;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 18px;
 }
 
 h1{
@@ -41,8 +43,8 @@ h1{
     font-stretch: expanded;
     font-size: 60px;
     color: black;
-    width: auto;
-    max-width: 50%;
+    margin: 0;
+    display: inline-block;
 }
 
 h2{
